@@ -1,6 +1,6 @@
 import style from './Section1.module.css';
 function Section1(props) {
-    console.log(props);
+    // console.log(props);
 
     const { actionTitle, newPrice, oldPrice, subTitle, title, btn } =
         props.data;
