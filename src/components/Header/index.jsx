@@ -1,19 +1,20 @@
-import React from 'react'
-import style from './Header.module.css'
-function Header(props){
- const {logo, menu} = props
-  
-  return (
-    <>
-    <div className={style.navbar}>
-    <h1 >HEADER </h1>
-    </div>
+import React from 'react';
+import style from './Header.module.css';
+function Header(props) {
+    const { menu } = props;
+    console.log(menu);
 
-    </>
-  )
+    return (
+        <div className={style.navbar}>
+            {menu.map((el, index) => {
+                return (
+                    <a className={style.link} key={index} href='#!'>
+                        {el.toUpperCase()}
+                    </a>
+                );
+            })}
+        </div>
+    );
 }
 
-
-
-
-export {Header}
+export { Header };
