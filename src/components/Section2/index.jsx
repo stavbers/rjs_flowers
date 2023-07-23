@@ -1,6 +1,6 @@
 import st from './Section2.module.css';
 function Section2(props) {
-    console.log(props.data);
+    // console.log(props.data);
 
     return (
         <div className='container'>
