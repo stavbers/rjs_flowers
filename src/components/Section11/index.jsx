@@ -1,9 +1,9 @@
 import style from './Section11.module.css';
 function Section11(props) {
     const { data } = props;
-    console.log(data);
+    // console.log(data);
 
-    console.log(data[0], data[1], data[2]);
+    // console.log(data[0], data[1], data[2]);
 
     return (
         <div className='container'>

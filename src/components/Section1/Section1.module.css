@@ -1,0 +1,89 @@
+.section_1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  height: 720px;
+  background-image: url('https://files.stavbers.site/flowers/action-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 1px 12px 1px rgba(100, 100, 100, .5);
+}
+.wrp{
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.action {
+  width: 350px;
+  height: 130px;
+  position: absolute;
+    top: 85px;
+    left: 5%;
+  background-image: url('https://files.stavbers.site/flowers/action-caption.png');
+}
+.title {
+  position: absolute;
+    top: 80px;
+    right: 2%;
+    width: 552px;
+    height: 154px;
+    padding-top: 56px;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background-image: url('https://files.stavbers.site/flowers/action-text-bg.png');
+}
+.main {
+  position: absolute;
+    bottom:10%;
+    left: 1%;
+    width: 975px;
+    height: 392px;
+    background-image: url('https://files.stavbers.site/flowers/action-price-bg.png');
+}
+.main_wrp{
+position: relative;
+font-family: 'PT Sans Narrow', sans-serif;
+color: #fff;
+text-transform: uppercase;
+}
+.old_price {
+  position: absolute;
+  top: 65px;
+  left: 115px;
+  text-decoration: line-through;
+  font-size: 50px;
+}
+.new_price{
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  font-size: 125px;
+  font-weight: bold;
+}
+.name {
+  position: absolute;
+  top: 70px;
+  right: 36px;
+  color: #bc0555;
+  font-size: 78px;
+  font-weight: bold;
+}
+.sub_title{
+  position: absolute;
+  top: 160px;
+  right: 56px;
+font-size: 34px;
+}
+
+.btn{
+  font-family: 'PT Sans Narrow', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 17%;
+  padding: 9px 45px;
+    font-size: 48px;
+    border-radius: 20px;
+    background: #82ae1f;
+    text-transform: uppercase;
+    color: #fff;
+}

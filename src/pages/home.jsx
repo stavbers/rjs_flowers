@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
+
 import { getAll } from '../api';
+
 import { Preloader } from '../components/Preloader';
 import { Header } from '../components/Header';
+import { Section1 } from '../components/Section1';
 import { Section11 } from '../components/Section11';
+import { Space } from '../components/Space';
 function Home() {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState([]);
@@ -14,15 +18,17 @@ function Home() {
     }, []);
     return (
         <>
-                {loading ? (
-                    <Preloader />
-                ) : (
-                    <>
-                        {/* {console.log(data)} */}
-                        <Header logo={data.logotype} menu={data.menuTop} />
-                        <Section11 data={data.scr_15} />
-                    </>
-                )}
+            {loading ? (
+                <Preloader />
+            ) : (
+                <>
+                    {/* {console.log(data)} */}
+                    <Header logo={data.logotype} menu={data.menuTop} />
+                    <Section11 data={data.scr_15} />
+                    <Section1 data={data.scr_1} />
+                    <Space/>
+                </>
+            )}
         </>
     );
 }
