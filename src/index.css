@@ -13,7 +13,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
 }
-
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1200px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

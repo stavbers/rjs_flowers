@@ -2,7 +2,6 @@ import React from 'react';
 import style from './Header.module.css';
 function Header(props) {
     const { menu } = props;
-    console.log(menu);
 
     return (
         <div className={style.navbar}>
