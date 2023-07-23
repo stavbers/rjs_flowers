@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {getAll} from '../api'
 import { Preloader } from '../components/Preloader';
+import { Header } from '../components/Header';
 function Home() {
 
     const [loading, setLoading] = useState(true);
@@ -14,11 +15,7 @@ function Home() {
     return (
         <main className='container'>
             {loading ? <Preloader /> : 
-           <div>
-                    <img src={data.logotype} alt="" style={{width: '300px'}} />
-                {console.log(data)}
-
-           </div> 
+                <Header logo={data.logotype} menu={data.menuTop}/>
 
             }
         </main>

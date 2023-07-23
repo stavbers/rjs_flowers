@@ -1,17 +1,13 @@
 
 body{
 
-  background: #001e3c;
+  /* background: #001e3c; */
 }
-.container{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+
 .wrapper{
   position: absolute;
   top: 150px;
+  left: 40%;
   transform: scale(1.5);
 }
 .loader{
@@ -24,7 +20,7 @@ body{
   top: 30px;
  height: 7px;
  width: 7px;
- background: #fff;
+ background: #000;
  border-radius: 50%;
  position: relative;
 }
@@ -34,7 +30,7 @@ body{
   font-size: 25px;
   font-weight: 400;
   font-family: sans-serif;
-  color: #fff;
+  color: #000;
 }
 @keyframes rotate {
   30%{
