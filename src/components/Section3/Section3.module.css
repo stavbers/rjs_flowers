@@ -64,9 +64,7 @@ z-index: 1;
 
 }
 .info{
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
+
   color: #999;
   text-transform: uppercase;
   font-weight: bold;
@@ -75,32 +73,10 @@ z-index: 1;
   border-radius: 15px;
   padding: 30px 20px;
   padding-top: 40px;
-  /* z-index: -1; */
-  /* transition: all 1s linear; */
 
 
 }
 
 
 
-
-.alert-enter {
-  opacity: 0;
-  height: 0px;
-}
-.alert-enter-active {
-   opacity: 1;
-  height: 300px;
-  -webkit-transition: height .3s ease;
-}
-.alert-exit {
-  opacity: 0;
-  /* height: 0px; */
-  -webkit-transition: height .3s ease;
-}
-.alert-exit-active {
-
-  height: 0px;
-  -webkit-transition: height .3s ease;
-}
 
