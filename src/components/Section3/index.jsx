@@ -1,13 +1,15 @@
-import React, { useState, useRef } from 'react';
+import React, {useState } from 'react';
+import { CSSTransition} from 'react-transition-group';
 import st from './Section3.module.css';
-
+import './style.css'
 
 function Section3(props) {
-
-
-    console.log(props.data);
-    const { logo, descr, info, priceTip, title } = props.data;
-
+    const { logo, descr, info, title } = props.data;
+    const [inProp, setInProp] = useState(false);
+    function  handleClick() {
+        setInProp((prev)=> !prev)
+      }
+      
     return (
         <div className='container'>
             <div className={st.wrp}>
@@ -16,16 +18,23 @@ function Section3(props) {
                     {title}
                     <span className={st.left}></span>
                     <span className={st.right}></span>
-                    <span
-                        className={st.btn}
-                    >
+                    <span className={st.btn} onClick={handleClick}>
                         {info}
                     </span>
                     <span className={st.tip}></span>
                 </div>
-                <p className={st.info} >
-                        {descr}
-                    </p>
+                <CSSTransition
+                in={inProp}
+                timeout={1000}
+                classNames="my-node"
+                mountOnEnter
+                unmountOnExit
+            >
+                {(state) => (
+                    <p className={st.info} >{descr}</p>
+                )}
+            </CSSTransition>
+
             </div>
         </div>
     );
