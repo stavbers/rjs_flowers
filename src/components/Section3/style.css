@@ -1,20 +1,23 @@
 
 
 
-.my-node-enter {
-  opacity: 0;
-  transform: translateY(-200px);
+.my-flowers-enter {
+  transform: translateY(50px);
+  transition: all 800ms;
 }
-.my-node-enter-active {
-  opacity: 1;
-  transform: translateY(0px);
-  transition: all 1000ms;
+.my-flowers-enter-done {
+  transform: translateY(50px);
+  transition: all 800ms;
 }
-.my-node-exit {
-  opacity: 1;
+.my-flowers-exit-active {
+  /* transform: translateY(-2000px); */
+
 }
-.my-node-exit-active {
-  opacity: 0;
-  transform: translateY(-200px);
-  transition: all 1000ms;
+
+.my-flowers-exit {
+  transform: translateY(-143px);
+  transition: all 500ms;
 }
+
+
+

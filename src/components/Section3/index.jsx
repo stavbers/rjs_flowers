@@ -1,15 +1,19 @@
-import React, {useState } from 'react';
-import { CSSTransition} from 'react-transition-group';
+import React, { useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+
+import { Description } from '../Descrption';
+import { Flowers } from '../FlowersList';
+
+import './style.css';
 import st from './Section3.module.css';
-import './style.css'
 
 function Section3(props) {
-    const { logo, descr, info, title } = props.data;
+    const { logo, descr, info, title, flowers } = props.data;
     const [inProp, setInProp] = useState(false);
-    function  handleClick() {
-        setInProp((prev)=> !prev)
-      }
-      
+    function handleClick() {
+        setInProp((prev) => !prev);
+    }
+
     return (
         <div className='container'>
             <div className={st.wrp}>
@@ -19,23 +23,23 @@ function Section3(props) {
                     <span className={st.left}></span>
                     <span className={st.right}></span>
                     <span className={st.btn} onClick={handleClick}>
-                        {info}
+                        {inProp ? 'Скрыть' : info}
                     </span>
                     <span className={st.tip}></span>
                 </div>
-                <CSSTransition
+                <Description inProp={inProp} descr={descr} />
+            </div>
+            <CSSTransition
                 in={inProp}
                 timeout={1000}
-                classNames="my-node"
-                mountOnEnter
-                unmountOnExit
+                classNames='my-flowers'
+                // mountOnEnter
+                // unmountOnExit
             >
-                {(state) => (
-                    <p className={st.info} >{descr}</p>
-                )}
+                <div className={st.bottom_wrp}>
+                    <Flowers flowers={flowers} inProp={inProp} />
+                </div>
             </CSSTransition>
-
-            </div>
         </div>
     );
 }
