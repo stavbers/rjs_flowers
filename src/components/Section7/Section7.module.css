@@ -8,7 +8,10 @@ text-align: center;
 }
 .text{
   text-transform: uppercase;
- 
+  font-weight: bold;
+}
+.text_white {
+  color: white;
 }
 .title {
   font-size: 52px;
@@ -22,10 +25,9 @@ text-align: center;
 }
 .text_phone {
 position: absolute;
-top: 0px;
-left: 0px;
-width: 100px;
-height: 100px;
+top: 232px;
+left: 43px;
+width: 120px;
 }
 .img_phone{
 position: absolute;
@@ -43,17 +45,16 @@ height: 304px;
 }
 .text_manag{
 position: absolute;
-top: 0px;
-left: 0px;
+top: 443px;
+left: 322px;
 width: 100px;
-height: 100px;
+
 }
 .text_bag{
 position: absolute;
-top: 0px;
-left: 0px;
-width: 100px;
-height: 100px;
+top: 200px;
+left: 500px;
+width: 120px;
 }
 .img_bag{
 position: absolute;
@@ -78,17 +79,17 @@ height: 120px;
 }
 .text_flowers{
 position: absolute;
-top: 0px;
-left: 0px;
+top: 481px;
+left: 652px;
 width: 100px;
-height: 100px;
+
 }
 .text_delivery{
 position: absolute;
-top: 0px;
-left: 0px;
-width: 100px;
-height: 100px;
+top: 85px;
+right: 154px;
+width: 150px;
+
 }
 .img_delivery{
 position: absolute;
