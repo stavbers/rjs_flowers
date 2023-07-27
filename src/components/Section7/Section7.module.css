@@ -1,0 +1,99 @@
+.wrp {
+  margin-top: 90px;
+height: 600px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+.text{
+  text-transform: uppercase;
+ 
+}
+.title {
+  font-size: 52px;
+  color: #b90554;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.wrp_inner{
+  position: relative;
+
+}
+.text_phone {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 100px;
+}
+.img_phone{
+position: absolute;
+top: 334px;
+left: 0px;
+width: 176px;
+height: 128px;
+}
+.img_manag{
+position: absolute;
+top: 161px;
+left: 256px;
+width: 284px;
+height: 304px;
+}
+.text_manag{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 100px;
+}
+.text_bag{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 100px;
+}
+.img_bag{
+position: absolute;
+top: 340px;
+left: 520px;
+width: 70px;
+height: 106px;
+}
+.img_card{
+position: absolute;
+top: 440px;
+left: 490px;
+width: 64px;
+height: 35px;
+}
+.img_flowers{
+position: absolute;
+top: 370px;
+right: 350px;
+width: 220px;
+height: 120px;
+}
+.text_flowers{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 100px;
+}
+.text_delivery{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100px;
+height: 100px;
+}
+.img_delivery{
+position: absolute;
+top: 153px;
+right: 0px;
+width: 380px;
+height: 380px;
+}
