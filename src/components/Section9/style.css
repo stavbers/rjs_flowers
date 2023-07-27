@@ -1,0 +1,22 @@
+
+
+
+.my-flowers-enter {
+  transform: translateY(50px);
+  transition: all 800ms;
+}
+.my-flowers-enter-done {
+  transform: translateY(50px);
+  transition: all 800ms;
+}
+.my-flowers-exit-active {
+
+}
+
+.my-flowers-exit {
+  transform: translateY(-143px);
+  transition: all 500ms;
+}
+
+
+
