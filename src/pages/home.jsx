@@ -7,7 +7,7 @@ import { Header } from '../components/Header';
 import { Section1 } from '../components/Section1';
 import { Section2 } from '../components/Section2';
 import { Section3 } from '../components/Section3';
-// import { Section4 } from '../components/Section4';
+import { Section4 } from '../components/Section4';
 import { Section11 } from '../components/Section11';
 import { Space } from '../components/Space';
 function Home() {
@@ -31,7 +31,7 @@ function Home() {
                     <Section1 data={data.scr_1} />
                     <Section2 data={data.scr_2} />
                     <Section3 data={data.scr_3} />
-                    {/* <Section4 data={data.scr_4} /> */}
+                    <Section4 data={data.scr_4} />
                     <Space/>
                 </>
             )}
