@@ -6,14 +6,16 @@ function Flowers({flowers}){
   return (
     <>
     {flowers.map((el, index)=> {
-      return <div key={index} className="item">
-          <h2 className="title">{el.title}</h2>
-          <img className='img' src={el.img} alt={el.title} />
+      return <div key={index} className={st.item}>
+          <h2 className={st.title}>{el.title}</h2>
+          <div className={st.img_wrp}>
+          <img className={st.img} src={el.img} alt={el.title} />
+          <span className={st.bezel}></span>
           <span></span>
-          <span></span>
-          <p className='oldPrice'>{el.priceOld}</p>
-          <p className='newPrice'>{el.priceNew}</p>
-          <button>{el.btn}</button>
+          </div>
+          <p className={st.oldPrice}>{el.priceOld}</p>
+          <p className={st.newPrice}>{el.priceNew}</p>
+          <button className={st.btn}>{el.btn}</button>
       </div>
   })}
   </>

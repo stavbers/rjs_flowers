@@ -29,13 +29,7 @@ function Section3(props) {
                 </div>
                 <Description inProp={inProp} descr={descr} />
             </div>
-            <CSSTransition
-                in={inProp}
-                timeout={1000}
-                classNames='my-flowers'
-                // mountOnEnter
-                // unmountOnExit
-            >
+            <CSSTransition in={inProp} timeout={1000} classNames='my-flowers'>
                 <div className={st.bottom_wrp}>
                     <Flowers flowers={flowers} inProp={inProp} />
                 </div>
