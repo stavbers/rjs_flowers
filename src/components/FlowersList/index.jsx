@@ -2,9 +2,8 @@
 import st from './Flowers.module.css'
 
 function Flowers({flowers}){
-  console.log(flowers)
   return (
-    <>
+    <div className={st.bottom_wrp}>
     {flowers.map((el, index)=> {
       return <div key={index} className={st.item}>
           <h2 className={st.title}>{el.title}</h2>
@@ -18,7 +17,7 @@ function Flowers({flowers}){
           <button className={st.btn}>{el.btn}</button>
       </div>
   })}
-  </>
+  </div>
   )
 }
 

@@ -65,32 +65,4 @@ z-index: 1;
 .tip{
 
 }
-.bottom_wrp {
-
-display: flex;
-align-items: center;
-justify-content: space-around;
-}
-
-
-
-
-
-/* .my-node-enter {
-  opacity: 0;
-  transform: translateY(-200px);
-}
-.my-node-enter-active {
-  opacity: 1;
-  transform: translateY(0px);
-  transition: all 200ms;
-}
-.my-node-exit {
-  opacity: 1;
-}
-.my-node-exit-active {
-  opacity: 0;
-  transform: translateY(-200px);
-  transition: all 200ms;
-} */
 

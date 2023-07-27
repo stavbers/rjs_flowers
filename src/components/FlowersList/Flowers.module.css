@@ -53,3 +53,9 @@ font-size: 28px;
 background: #1b1131;
 cursor: pointer;
 }
+.bottom_wrp {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
