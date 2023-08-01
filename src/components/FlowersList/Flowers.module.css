@@ -1,8 +1,25 @@
+.bottom_wrp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  }
+
 .item {
+  border-radius: 10px;
 text-align: center;
 font-family: 'PT Sans Narrow', sans-serif;
 margin-right: 40px;
 margin-bottom: 20px;
+padding: 20px;
+transition: all .5s ease;
+}
+
+.item:hover {
+    -webkit-box-shadow: 2px 4px 12px 5px rgba(0,0,0,0.63); 
+box-shadow: 2px 4px 12px 5px rgba(0,0,0,0.63);
+transform: translateY(15px);
 }
 
 
@@ -55,11 +72,12 @@ color: #fff;
 font-size: 28px;
 background: #1b1131;
 cursor: pointer;
+outline: none;
+transition: background-color .7s ease;
 }
-.bottom_wrp {
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  }
+.btn:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
