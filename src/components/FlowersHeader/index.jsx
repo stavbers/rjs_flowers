@@ -6,9 +6,8 @@ function FlowersHeader({logo, descr, info, title, handleClick, inProp}){
     <div className={st.wrp}>
     <img className={st.img} src={logo} alt={descr} />
     <div className={st.title}>
-        {title}
-        <span className={st.left}></span>
-        <span className={st.right}></span>
+        <p className={st.subTitle}>{title}</p>
+        <span className={st.hr}></span> 
         <span className={st.btn} onClick={handleClick}>
             {inProp ? 'Скрыть' : info}
         </span>
