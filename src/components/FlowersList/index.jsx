@@ -2,6 +2,8 @@
 import st from './Flowers.module.css'
 
 function Flowers({flowers}){
+  
+  
   return (
     <div className={st.bottom_wrp}>
     {flowers.map((el, index)=> {
