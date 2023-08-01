@@ -1,0 +1,13 @@
+.wrp {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text{
+margin-bottom: 20px;
+}
+.text:nth-child(1){
+  font-weight: bold;  
+}

@@ -18,6 +18,7 @@ import { Section11 } from '../components/Section11';
 import { Slider } from '../components/Slider';
 import { Map } from '../components/Map';
 import { Socials } from '../components/Socials';
+import { Info_block } from '../components/Info_block';
 import { Space } from '../components/Space';
 function Home() {
     const [loading, setLoading] = useState(true);
@@ -51,6 +52,7 @@ function Home() {
                     <Map data={data.scr_11} />
                     <Section11 data={data.scr_15} />
                     <Socials data={data.scr_13} />
+                    <Info_block data={data.scr_12} />
                     <Space/>
                 </>
             )}
