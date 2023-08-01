@@ -1,0 +1,30 @@
+.title {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #b90554;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+.subtitle {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  font-size: 42px;
+}
+
+.wrp {
+  margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+}
+
+.img {
+  width: 450px;
+  height: 300px;
+}
+
+.map_img {
+  width: 550px;
+  height: 300px;
+}
