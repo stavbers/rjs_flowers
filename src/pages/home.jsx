@@ -17,6 +17,7 @@ import { Section10 } from '../components/Section10';
 import { Section11 } from '../components/Section11';
 import { Slider } from '../components/Slider';
 import { Map } from '../components/Map';
+import { Socials } from '../components/Socials';
 import { Space } from '../components/Space';
 function Home() {
     const [loading, setLoading] = useState(true);
@@ -48,6 +49,8 @@ function Home() {
                     <Section10 data={data.scr_10} />
                     <Slider data={data.slider} />
                     <Map data={data.scr_11} />
+                    <Section11 data={data.scr_15} />
+                    <Socials data={data.scr_13} />
                     <Space/>
                 </>
             )}
