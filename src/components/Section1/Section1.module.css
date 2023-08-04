@@ -104,8 +104,8 @@ font-size: 34px;
 /* sm-размер (<=768px) */
 @media (max-width: 768px) {
 .action {
-  width: 220px;
-  height: 80px;
+  width: 150px;
+  height: 50px;
 }
 
 .title {
@@ -115,6 +115,65 @@ font-size: 34px;
   padding-top: 0;
   font-size: 32px;
 }
+.section_1 {
+  height: 700px;
+}
+.wrp{
+  position: relative;
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+}
+.title {
+  position: absolute;
+    top: 35px;
+    right: 2%;
+    width: 350px;
+    height: 135px;
+    padding-top: 56px;
+    font-size: 36px;
+}
+.main {
+    bottom:37%;
+    left: 1%;
+    max-width: 600px;
+    height: 200px;
+}
+.old_price {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  text-decoration: line-through;
+  font-size: 30px;
+}
+.new_price{
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.name {
+  position: absolute;
+  top: 70px;
+  right: 36px;
+  color: #bc0555;
+  font-size: 60px;
+  font-weight: bold;
+}
+.sub_title{
+  position: absolute;
+  top: 150px;
+  right: 25px;
+font-size: 30px;
+}
+
+.btn{
+    font-size: 32px;
+    border-radius: 20px;
+    color: #fff;
+}
+
 }
 
 /* xs-размер (<=575px) */
