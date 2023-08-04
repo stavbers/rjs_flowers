@@ -17,3 +17,10 @@ font-size: 52px;
 font-weight: bold;
 text-align: center;
 }
+
+@media (max-width: 575px) {
+
+  .text {
+    font-size: 40px;
+  }
+}

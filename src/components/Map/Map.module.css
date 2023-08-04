@@ -62,5 +62,16 @@ display: none;
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
-  /* CSS для ширины до 575px (включительно) */
+  .title {
+    margin-top: 20px;
+    font-size: 42px;
+
+  }
+  .subtitle {
+    font-size: 22px;
+  }
+  .wrp {
+    margin-top: 30px;
+
+  }
 }

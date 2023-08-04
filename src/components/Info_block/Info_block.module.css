@@ -11,3 +11,10 @@ margin-bottom: 20px;
 .text:nth-child(1){
   font-weight: bold;  
 }
+
+@media (max-width: 575px) {
+
+  .wrp {
+    font-size: 18px;
+  }
+}

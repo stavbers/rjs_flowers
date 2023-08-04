@@ -183,13 +183,6 @@ font-size: 30px;
     height: 50px;
   }
   
-  .title {
-    top: 0px;
-    width: 100px;
-    height: 50px;
-    padding-top: 0px;
-    font-size: 14px;
-  }
   .section_1 {
     height: 600px;
   }
@@ -205,8 +198,8 @@ font-size: 30px;
       right: 2%;
       width: 200px;
       height: 135px;
-      padding-top: 56px;
-      font-size: 36px;
+      padding-top: 46px;
+      font-size: 25px;
   }
   .main {
       bottom:37%;
@@ -223,22 +216,22 @@ font-size: 30px;
   }
   .new_price{
     position: absolute;
-    top: 110px;
+    top: 78px;
     left: 10px;
-    font-size: 40px;
+    font-size: 29px;
     font-weight: bold;
   }
   .name {
     position: absolute;
-    top: 70px;
-    right: 36px;
+    top: 43px;
+    right: 20px;
     color: #bc0555;
     font-size: 40px;
     font-weight: bold;
   }
   .sub_title{
     position: absolute;
-    top: 162px;
+    top: 112px;
     right: 9px;
   font-size: 25px;
   }
