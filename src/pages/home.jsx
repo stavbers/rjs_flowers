@@ -43,7 +43,7 @@ function Home() {
                     <Section4 data={data.scr_4} />
                     <Section5 data={data.scr_5} />
                     <Section6 data={data.scr_6} />
-                    {/* <Section7 data={data.scr_7} /> */}
+                    <Section7 data={data.scr_7} />
                     <Section8 data={data.scr_8} />
                     <Section9 data={data.scr_9} />
                     <Section10 data={data.scr_10} />
