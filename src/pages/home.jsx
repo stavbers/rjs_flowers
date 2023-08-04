@@ -39,7 +39,7 @@ function Home() {
                     {/* {console.log(data)} */}
                     <Header logo={data.logotype} menu={data.menuTop} />
                     <Section11 data={data.scr_15} />
-                    {/* <Section1 data={data.scr_1} /> */}
+                    <Section1 data={data.scr_1} />
                     {/* <Section2 data={data.scr_2} /> */}
                     {/* <Section3 data={data.scr_3} /> */}
                     {/* <Section4 data={data.scr_4} /> */}
@@ -55,7 +55,7 @@ function Home() {
                     {/* <Socials data={data.scr_13} /> */}
                     {/* <Info_block data={data.scr_12} /> */}
                     {/* <Footer data={data.scr_14} /> */}
-                    <Space/>
+                    {/* <Space/> */}
                 </>
             )}
         </>
