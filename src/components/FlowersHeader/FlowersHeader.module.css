@@ -95,7 +95,7 @@
     .btn {
         position: absolute;
         bottom: 27px;
-        right: -12px;
+        right: -40px;
         z-index: 9;
         padding: 3px 10px;
         cursor: pointer;
