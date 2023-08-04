@@ -176,6 +176,73 @@ display: none;
   
   /* xs-размер (<=575px) */
   @media (max-width: 575px) {
-    /* CSS для ширины до 575px (включительно) */
+    .title {
+      padding-top: 30px;
+      font-size: 30px;
+    }
+    .text_phone {
+  
+    top: 122px;
+    left: -9px;
+    width: 80px;
+    font-size: 12px;
+    }
+    .img_phone{
+    top: 250px;
+    left: -30px;
+    width: 100px;
+    height: 50px;
+    }
+    .img_manag{
+    top: 133px;
+    left: 62px;
+    width: 140px;
+    height: 160px;
+    }
+    .text_manag{
+    top: 310px;
+    left: 70px;
+    width: 100px;
+    font-size: 15px;
+    }
+    .text_bag{
+  
+    top: 100px;
+    left: 190px;
+    width: 80px;
+    font-size: 12px;
+    }
+    .img_bag{
+    top: 214px;
+    left: 163px;
+    width: 40px;
+    height: 76px;
+    }
+    .img_card{
+    top: 274px;
+    left: 127px;
+    }
+    .img_flowers{
+    top: 274px;
+    right: 121px;
+    width: 100px;
+    height: 40px;
+    }
+    .text_flowers{
+  display: none;
+    
+    }
+    .text_delivery{
+    top: 170px;
+    right: -2px;
+    width: 80px;
+    font-size: 12px;
+    }
+    .img_delivery{
+    top: 211px;
+    right: -15px;
+    width: 170px;
+    height: 170px;
+    }
   }
   
