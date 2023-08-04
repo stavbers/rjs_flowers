@@ -5,7 +5,7 @@ import { Description } from '../Descrption';
 import { Flowers } from '../FlowersList';
 import { FlowersHeader } from '../FlowersHeader';
 
-import './style.css';
+import '../../style.css'
 
 function Section9(props) {
     const { logo, descr, info, title, flowers } = props.data;

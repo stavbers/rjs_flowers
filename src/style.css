@@ -10,7 +10,7 @@
   transition: all 800ms;
 }
 .my-flowers-exit-active {
-
+  transform: translateY(-193px);
 }
 
 .my-flowers-exit {
