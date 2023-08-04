@@ -25,3 +25,42 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 768px) {
+  .frame {
+    margin-top: 30px;
+    padding: 20px 40px;
+ 
+  }
+  .block {
+    width: 120px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  
+  .img {
+    width: 150px;
+    height: 120px;
+  }
+  
+  .info {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}

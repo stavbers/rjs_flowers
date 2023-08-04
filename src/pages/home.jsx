@@ -40,7 +40,7 @@ function Home() {
                     <Header logo={data.logotype} menu={data.menuTop} />
                     <Section11 data={data.scr_15} />
                     <Section1 data={data.scr_1} />
-                    {/* <Section2 data={data.scr_2} /> */}
+                    <Section2 data={data.scr_2} />
                     {/* <Section3 data={data.scr_3} /> */}
                     {/* <Section4 data={data.scr_4} /> */}
                     {/* <Section5 data={data.scr_5} /> */}
