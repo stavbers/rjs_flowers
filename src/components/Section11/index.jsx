@@ -8,8 +8,8 @@ function Section11(props) {
     return (
         <div className='container'>
             <div className={style.delivery}>
-                <img src={data[0].img} alt={data[2].text} />
-                <img src={data[1].img} alt={data[2].text} />
+                <img className={style.logo} src={data[0].img} alt={data[2].text} />
+                <img className={style.img} src={data[1].img} alt={data[2].text} />
                 <div className='other'>
                     <p className={style.title}>{'НУЖЕН БУКЕТ ЗВОНИ'}</p>
                     <a className={style.link} href={data[2].link}>

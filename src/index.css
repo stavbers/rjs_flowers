@@ -33,7 +33,9 @@ code {
 
 /* md-размер (<=991px) */
 @media (max-width: 991px) {
-  /* CSS для ширины от 768px до 991px */
+  .container {
+    width: 750px;
+  }
 }
 
 /* sm-размер (<=768px) */

@@ -21,3 +21,43 @@ line-height: 48px;
   line-height: 24px;
   color: #1b1132;
 }
+
+
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 768px) {
+  .title {
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+  .link {
+  font-size: 24px;
+  line-height: 24px;
+  }
+  .info{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .logo{
+      width: 180px;
+  }
+  .img{
+    width: 200px;
+  }
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}

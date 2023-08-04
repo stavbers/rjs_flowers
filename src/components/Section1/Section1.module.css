@@ -19,6 +19,7 @@
     top: 85px;
     left: 5%;
   background-image: url('https://files.stavbers.site/flowers/action-caption.png');
+  background-size: cover;
 }
 .title {
   position: absolute;
@@ -31,6 +32,7 @@
     color: #fff;
     text-align: center;
     background-image: url('https://files.stavbers.site/flowers/action-text-bg.png');
+    background-size: cover;
 }
 .main {
   position: absolute;
@@ -86,4 +88,36 @@ font-size: 34px;
     background: #82ae1f;
     text-transform: uppercase;
     color: #fff;
+}
+
+
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 768px) {
+.action {
+  width: 220px;
+  height: 80px;
+}
+
+.title {
+  top: 0px;
+  width: 300px;
+  height: 100px;
+  padding-top: 0;
+  font-size: 32px;
+}
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
 }
