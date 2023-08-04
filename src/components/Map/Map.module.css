@@ -50,7 +50,14 @@ margin-bottom: 50px;
 
 /* sm-размер (<=768px) */
 @media (max-width: 767px) {
-  /* CSS для ширины от 576px до 767px */
+  .img {
+display: none;
+  }
+  
+  .map_img {
+    width: 450px;
+    height: 300px;
+  }
 }
 
 /* xs-размер (<=575px) */
