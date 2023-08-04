@@ -20,7 +20,7 @@ import { Map } from '../components/Map';
 import { Socials } from '../components/Socials';
 import { Info_block } from '../components/Info_block';
 import { Footer } from '../components/Footer';
-// import { Space } from '../components/Space';
+import { Space } from '../components/Space';
 function Home() {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState([]);
@@ -39,23 +39,23 @@ function Home() {
                     {/* {console.log(data)} */}
                     <Header logo={data.logotype} menu={data.menuTop} />
                     <Section11 data={data.scr_15} />
-                    <Section1 data={data.scr_1} />
-                    <Section2 data={data.scr_2} />
-                    <Section3 data={data.scr_3} />
-                    <Section4 data={data.scr_4} />
-                    <Section5 data={data.scr_5} />
-                    <Section6 data={data.scr_6} />
-                    <Section7 data={data.scr_7} />
-                    <Section8 data={data.scr_8} />
-                    <Section9 data={data.scr_9} />
-                    <Section10 data={data.scr_10} />
-                    <Slider data={data.slider} />
-                    <Map data={data.scr_11} />
-                    <Section11 data={data.scr_15} />
-                    <Socials data={data.scr_13} />
-                    <Info_block data={data.scr_12} />
-                    <Footer data={data.scr_14} />
-                    {/* <Space/> */}
+                    {/* <Section1 data={data.scr_1} /> */}
+                    {/* <Section2 data={data.scr_2} /> */}
+                    {/* <Section3 data={data.scr_3} /> */}
+                    {/* <Section4 data={data.scr_4} /> */}
+                    {/* <Section5 data={data.scr_5} /> */}
+                    {/* <Section6 data={data.scr_6} /> */}
+                    {/* <Section7 data={data.scr_7} /> */}
+                    {/* <Section8 data={data.scr_8} /> */}
+                    {/* <Section9 data={data.scr_9} /> */}
+                    {/* <Section10 data={data.scr_10} /> */}
+                    {/* <Slider data={data.slider} /> */}
+                    {/* <Map data={data.scr_11} /> */}
+                    {/* <Section11 data={data.scr_15} /> */}
+                    {/* <Socials data={data.scr_13} /> */}
+                    {/* <Info_block data={data.scr_12} /> */}
+                    {/* <Footer data={data.scr_14} /> */}
+                    <Space/>
                 </>
             )}
         </>
