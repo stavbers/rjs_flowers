@@ -99,10 +99,6 @@ transition: background-color .7s ease;
 /* sm-размер (<=768px) */
 @media (max-width: 767px) {
   .bottom_wrp {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
     padding: 0px;
     }
   
@@ -177,5 +173,7 @@ transition: background-color .7s ease;
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
-  /* CSS для ширины до 575px (включительно) */
+  .bottom_wrp {
+    padding-top:30px;
+    }
 }

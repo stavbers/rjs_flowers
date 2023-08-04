@@ -49,5 +49,9 @@ code {
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
-  /* CSS для ширины до 575px (включительно) */
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 400px;
+  }
 }

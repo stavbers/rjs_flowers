@@ -101,13 +101,6 @@
         cursor: pointer;
         color: #999;
         font-size: 32px;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-decoration: underline;
-        z-index: 101;
-    }
-    .btn:hover {
-        text-decoration: none;
     }
     .smText {
       max-width: 430px;
@@ -117,5 +110,36 @@
   
   /* xs-размер (<=575px) */
   @media (max-width: 575px) {
-    /* CSS для ширины до 575px (включительно) */
+    .img {
+        max-width: 370px;
+        height: 90px;
+    }
+    .hr {
+        position: absolute;
+        bottom: 50px;
+        left: 12px;
+        display: block;
+        background-color: #b90554;
+        height: 3px;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .title {
+        margin-top: 5px;
+    }
+    .subTitle {
+        max-width: 370px;
+        font-size: 35px;
+    }
+    .btn {
+        bottom: -20px;
+        right: 125px;
+        padding: 3px 10px;
+        font-size: 26px;
+    }
+    .smText {
+      max-width: 430px;
+      font-size: 36px;
+    }
   }

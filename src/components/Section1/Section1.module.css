@@ -178,5 +178,73 @@ font-size: 30px;
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
-  /* CSS для ширины до 575px (включительно) */
+  .action {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .title {
+    top: 0px;
+    width: 100px;
+    height: 50px;
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .section_1 {
+    height: 600px;
+  }
+  .wrp{
+    position: relative;
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .title {
+    position: absolute;
+      top: 35px;
+      right: 2%;
+      width: 200px;
+      height: 135px;
+      padding-top: 56px;
+      font-size: 36px;
+  }
+  .main {
+      bottom:37%;
+      left: 1%;
+      max-width: 400px;
+      height: 150px;
+  }
+  .old_price {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    text-decoration: line-through;
+    font-size: 25px;
+  }
+  .new_price{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .name {
+    position: absolute;
+    top: 70px;
+    right: 36px;
+    color: #bc0555;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .sub_title{
+    position: absolute;
+    top: 162px;
+    right: 9px;
+  font-size: 25px;
+  }
+  
+  .btn{
+      font-size: 23px;
+      left: 10%;
+  }
 }

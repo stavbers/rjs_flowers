@@ -62,5 +62,28 @@ line-height: 48px;
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
-  /* CSS для ширины до 575px (включительно) */
+  .title {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+  .link {
+  font-size: 15px;
+  line-height: 15px;
+  }
+  .info{
+display: none;
+  }
+  .logo{
+      width: 100px;
+      margin-right: 20px;
+  }
+  .img{
+    width: 120px;
+    margin-right: 20px;
+  }
+  .delivery {
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
 }
